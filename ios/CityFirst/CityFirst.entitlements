@@ -6,7 +6,7 @@
 	<string>development</string>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.com.subsplashconsulting.ND38ZC.onesignal</string>
+		<string>group.com.subsplashconsulting.ND38ZC</string>
 	</array>
 </dict>
 </plist>
