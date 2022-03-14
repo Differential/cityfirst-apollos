@@ -16,7 +16,10 @@
     "pods": "(bundle install && cd ios && bundle exec pod install --repo-update)",
     "prestart": "node ./scripts/get-introspection-data.js",
     "start": "react-native start",
-    "test": "echo \"No tests\""
+    "test": "echo \"No tests\"",
+    "splash": "react-native set-splash --path",
+    "icons": "react-native set-icon --path"
+    
   },
   "jest": {
     "preset": "react-native",
