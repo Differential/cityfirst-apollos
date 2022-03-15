@@ -88,12 +88,12 @@ const HomeTab = createFeatureFeedTab({
   feedName: 'HOME',
 });
 
-const ReadTab = createFeatureFeedTab({
+const ExploreTab = createFeatureFeedTab({
   options: {
     headerLeft: ProfileButton,
   },
-  tabName: 'Read',
-  feedName: 'READ',
+  tabName: 'Explore',
+  feedName: 'EXPLORE',
 });
 
 const WatchTab = createFeatureFeedTab({
@@ -104,12 +104,12 @@ const WatchTab = createFeatureFeedTab({
   feedName: 'WATCH',
 });
 
-const PrayTab = createFeatureFeedTab({
+const GiveTab = createFeatureFeedTab({
   options: {
     headerLeft: ProfileButton,
   },
-  tabName: 'Pray',
-  feedName: 'PRAY',
+  tabName: 'Give',
+  feedName: 'GIVE',
 });
 
 const ConnectTab = createFeatureFeedTab({
@@ -139,22 +139,22 @@ const TabNavigator = () => {
       <Screen
         name="Home"
         component={HomeTab}
-        options={{ tabBarIcon: tabBarIcon('home') }}
-      />
-      <Screen
-        name="Read"
-        component={ReadTab}
-        options={{ tabBarIcon: tabBarIcon('sections') }}
+        options={{ tabBarIcon: tabBarIcon('house-line') }}
       />
       <Screen
         name="Watch"
         component={WatchTab}
-        options={{ tabBarIcon: tabBarIcon('video') }}
+        options={{ tabBarIcon: tabBarIcon('youtube-logo') }}
       />
       <Screen
-        name="Pray"
-        component={PrayTab}
-        options={{ tabBarIcon: tabBarIcon('like') }}
+        name="Explore"
+        component={ExploreTab}
+        options={{ tabBarIcon: tabBarIcon('compass') }}
+      />
+      <Screen
+        name="Give"
+        component={GiveTab}
+        options={{ tabBarIcon: tabBarIcon('currency-circle-dollar') }}
       />
       <Screen
         name="Connect"
