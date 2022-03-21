@@ -48,6 +48,7 @@ const getIntrospectionData = async () => {
 
     console.log('Successfully wrote fragmentTypes!');
   } catch (e) {
+    console.log(e);
     if (attempts < maxAttempts) {
       console.log(
         `Error writing fragmentTypes (-api probably hasn't started yet). Trying again after wait. Attempt: ${
