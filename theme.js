@@ -2,7 +2,6 @@ import ApollosConfig from '@apollosproject/config';
 import Svg, { Path } from 'react-native-svg';
 import FRAGMENTS from '@apollosproject/ui-fragments';
 import { makeIcon } from '@apollosproject/ui-kit';
-import { Appearance } from 'react-native';
 
 const THEME = {
   colors: { primary: '#1C1C1C', secondary: '#00B3E3', tertiary: '#EC5840' },
@@ -12,8 +11,6 @@ const THEME = {
 
 const ICONS = {
   BrandIcon: makeIcon(({ size = 32, fill, ...otherProps } = {}) => {
-    const deviceColorScheme = Appearance.getColorScheme();
-    fill = deviceColorScheme === 'light' ? '#1C1C1C' : '#ffffff';
     return (
       <Svg
         width={75}
