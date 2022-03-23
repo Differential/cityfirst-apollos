@@ -18,14 +18,16 @@ import {
   ConnectScreenConnected,
 } from '@apollosproject/ui-connected';
 import { checkOnboardingStatusAndNavigate } from '@apollosproject/ui-onboarding';
+import { Appearance } from 'react-native';
 
 const HeaderLogo = () => {
   const theme = useTheme();
+  const deviceColorScheme = Appearance.getColorScheme();
   return (
     <Icon
       name="brand-icon"
       size={theme.sizing.baseUnit * 1.5}
-      fill={theme.colors.primary}
+      fill={deviceColorScheme === 'light' ? theme.colors.primary : '#ffffff'}
     />
   );
 };
