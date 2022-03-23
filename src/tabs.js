@@ -80,7 +80,6 @@ const HomeTab = createFeatureFeedTab({
   screenOptions: {
     headerHideShadow: true,
     headerCenter: HeaderLogo,
-    headerRight: SearchButton,
     headerLeft: ProfileButton,
     headerLargeTitle: false,
   },
@@ -91,9 +90,10 @@ const HomeTab = createFeatureFeedTab({
 const ExploreTab = createFeatureFeedTab({
   options: {
     headerLeft: ProfileButton,
+    headerRight: SearchButton,
   },
   tabName: 'Explore',
-  feedName: 'EXPLORE',
+  feedName: 'READ',
 });
 
 const WatchTab = createFeatureFeedTab({
