@@ -739,7 +739,7 @@
 				CODE_SIGN_ENTITLEMENTS = CityFirst/CityFirst.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 670;
+				CURRENT_PROJECT_VERSION = 15;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 5YJ6B93CR6;
 				HEADER_SEARCH_PATHS = (
@@ -757,7 +757,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cityfirst.apollos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.subsplashconsulting.ND38ZC;
 				PRODUCT_NAME = CityFirst;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "CityFirst-Bridging-Header.h";
@@ -776,7 +776,7 @@
 				CODE_SIGN_ENTITLEMENTS = CityFirst/CityFirst.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 670;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = 5YJ6B93CR6;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -793,7 +793,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cityfirst.apollos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.subsplashconsulting.ND38ZC;
 				PRODUCT_NAME = CityFirst;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "CityFirst-Bridging-Header.h";
@@ -946,7 +946,7 @@
 				);
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cityfirst.apollos.OneSignalNotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.subsplashconsulting.ND38ZC.OneSignalNotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -984,7 +984,7 @@
 					"$(inherited)",
 				);
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cityfirst.apollos.OneSignalNotificationServiceExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.subsplashconsulting.ND38ZC.OneSignalNotificationServiceExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
