@@ -739,7 +739,7 @@
 				CODE_SIGN_ENTITLEMENTS = CityFirst/CityFirst.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 16;
+				CURRENT_PROJECT_VERSION = 17;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 5YJ6B93CR6;
 				HEADER_SEARCH_PATHS = (
@@ -776,7 +776,7 @@
 				CODE_SIGN_ENTITLEMENTS = CityFirst/CityFirst.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 16;
+				CURRENT_PROJECT_VERSION = 17;
 				DEVELOPMENT_TEAM = 5YJ6B93CR6;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
