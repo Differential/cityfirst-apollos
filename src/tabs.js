@@ -114,7 +114,7 @@ const GiveTab = createFeatureFeedTab({
     headerLeft: ProfileButton,
   },
   tabName: 'Give',
-  feedName: 'GIVE',
+  feedName: 'PRAY',
 });
 
 const ConnectTab = createFeatureFeedTab({
