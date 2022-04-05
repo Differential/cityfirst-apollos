@@ -739,7 +739,7 @@
 				CODE_SIGN_ENTITLEMENTS = CityFirst/CityFirst.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 24;
+				CURRENT_PROJECT_VERSION = 25;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 5YJ6B93CR6;
 				HEADER_SEARCH_PATHS = (
@@ -763,6 +763,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "CityFirst-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -776,7 +777,7 @@
 				CODE_SIGN_ENTITLEMENTS = CityFirst/CityFirst.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 24;
+				CURRENT_PROJECT_VERSION = 25;
 				DEVELOPMENT_TEAM = 5YJ6B93CR6;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -798,6 +799,7 @@
 				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.subsplashconsulting.ND38ZC";
 				SWIFT_OBJC_BRIDGING_HEADER = "CityFirst-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
