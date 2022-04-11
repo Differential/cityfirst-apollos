@@ -8,7 +8,7 @@ const deviceColorScheme = Appearance.getColorScheme();
 
 const THEME = {
   colors: {
-    primary: deviceColorScheme === 'light' ? '#1C1C1C' : '#FFFFFF',
+    primary: deviceColorScheme === 'light' ? '#1C1C1C' : '#CCCCCC',
     secondary: '#00B3E3',
     tertiary: '#EC5840',
   },
