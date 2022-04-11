@@ -2,9 +2,16 @@ import ApollosConfig from '@apollosproject/config';
 import Svg, { Path } from 'react-native-svg';
 import FRAGMENTS from '@apollosproject/ui-fragments';
 import { makeIcon } from '@apollosproject/ui-kit';
+import { Appearance } from 'react-native';
+
+const deviceColorScheme = Appearance.getColorScheme();
 
 const THEME = {
-  colors: { primary: '#1C1C1C', secondary: '#00B3E3', tertiary: '#EC5840' },
+  colors: {
+    primary: deviceColorScheme === 'light' ? '#1C1C1C' : '#FFFFFF',
+    secondary: '#00B3E3',
+    tertiary: '#EC5840',
+  },
   typography: {},
   overrides: {},
 };
@@ -41,7 +48,7 @@ const ICONS = {
       >
         <Path
           d="M38.7399 73.3196V38.6398H52.2301V34.9444H38.7399V19.2153H35.0348V34.9444H21.5447V38.6398H35.0348V73.3196L33.1348 73.1301C24.2047 72.1826 15.9396 68.0134 9.8595 61.3807C3.77942 54.6532 0.359375 45.9358 0.359375 36.8395C0.359375 16.7517 16.6996 0.359375 36.8399 0.359375C56.9801 0.359375 73.3203 16.7517 73.3203 36.8395C73.3203 45.9358 69.9953 54.6532 63.8202 61.3807C57.7401 68.0134 49.475 72.1826 40.5449 73.1301L38.7399 73.3196ZM36.8399 3.86526C18.6946 3.86526 3.87442 18.6468 3.87442 36.8395C3.87442 53.2318 15.6546 66.8764 31.6148 69.4347V42.0509H18.1246V31.4385H31.6148V15.8042H42.1599V31.5333H55.6501V42.1457H42.1599V69.5295C58.1201 66.8764 69.9003 53.2318 69.9003 36.8395C69.9003 18.6468 55.0801 3.86526 36.8399 3.86526Z"
-          fill={fill}
+          fill={THEME.colors.secondary}
         />
       </Svg>
     );
