@@ -41,10 +41,10 @@
   dependencies:
     react-native-device-info "^4.0.1"
 
-"@apollosproject/ui-authentication@^3.6.1-canary.4":
-  version "3.6.1-canary.4"
-  resolved "https://registry.yarnpkg.com/@apollosproject/ui-authentication/-/ui-authentication-3.6.1-canary.4.tgz#dd6e82b4927cbe813a9de95c1209c73176a9ca15"
-  integrity sha512-Tp3J1hXAp91be/sAmfKa7P01VQEg1Lv/AiBeULu4KIxYq86ck3mo6o62ropxQBCNh49e7+KWVtNMIJ0ZNPQuTQ==
+"@apollosproject/ui-authentication@^3.6.1-canary.11":
+  version "3.6.1-canary.11"
+  resolved "https://registry.yarnpkg.com/@apollosproject/ui-authentication/-/ui-authentication-3.6.1-canary.11.tgz#19e5aede8f6f2fcec408d09f1bd5c4d49722d0b5"
+  integrity sha512-PhJrxx6XAChzbpCd7f/4Yqg6lyUuKg8WUX1v/6vRAe0mrAAn1M34ejnFR8MHLqDyY6M22gxK8J6rU0PMjcnEUg==
   dependencies:
     formik "2.2.9"
     react-native-url-polyfill "^1.3.0"
