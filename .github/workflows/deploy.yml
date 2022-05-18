@@ -18,6 +18,8 @@ jobs:
       with:
         node-version: 14
 
+    - uses: ruby/setup-ruby@v1
+
     - name: Install Bundler
       run: gem install bundler
 
@@ -47,6 +49,8 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: 14
+
+    - uses: ruby/setup-ruby@v1
 
     - name: Install Bundler
       run: gem install bundler
