@@ -50,10 +50,10 @@
     react-native-url-polyfill "^1.3.0"
     yup "^0.27.0"
 
-"@apollosproject/ui-connected@^3.5.0":
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/@apollosproject/ui-connected/-/ui-connected-3.6.0.tgz#96c90a728c1aa187b8cca21e444b2752e5d97cb9"
-  integrity sha512-6SD8hcfZ4vRXCnmaJ7pV7sKLi6DgHlqT/DUPKAlhQlbN/KagT7Ft7cQhAk8BKP6K+gWI1Q8+2wRfk3b7WHbQpQ==
+"@apollosproject/ui-connected@^3.7.1-canary.2":
+  version "3.7.1-canary.2"
+  resolved "https://registry.yarnpkg.com/@apollosproject/ui-connected/-/ui-connected-3.7.1-canary.2.tgz#4d6c8daa631ce1087172598bac09be962dab8bbd"
+  integrity sha512-lAMhN9lrJ8pHTiuQstKe8oMIYL0f5ZVljHAmgvdGHxd01FuF00yJYqT1UTlbRPwjlJAFheL/rx3hAQ4u9xMElg==
   dependencies:
     "@gorhom/bottom-sheet" "3.4.1"
     "@react-navigation/bottom-tabs" "^5.11.8"
@@ -116,10 +116,10 @@
     react-native-youtube-iframe "~2.2.2"
     use-debounce "5.1.0"
 
-"@apollosproject/ui-notifications@^3.5.0":
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/@apollosproject/ui-notifications/-/ui-notifications-3.6.0.tgz#f4fc2b55b8ca5ffa021067bfa092c76a499e084d"
-  integrity sha512-u1Z/u5fDCT3kXBbVVUqmgYRi36T9gzxq8DbxqWd40XHWb1Gc5B/GkgRQAxfaZBSBnnMVuUWw/17xApp9uEeqeA==
+"@apollosproject/ui-notifications@^3.7.1-canary.2":
+  version "3.7.1-canary.2"
+  resolved "https://registry.yarnpkg.com/@apollosproject/ui-notifications/-/ui-notifications-3.7.1-canary.2.tgz#067cd21510835a93f1ecaa162d9374153ea02b2d"
+  integrity sha512-+WAs1oaoAoKU2kJKnUipwlfrKKguHIg44uSe84ZSoLS/lgA+ouCZU1PljqVJUNH1bhfXwUkaXUVYhGKrawPSbQ==
   dependencies:
     lodash "^4.17.11"
     react-native-permissions "^2.0.5"
