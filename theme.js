@@ -13,7 +13,13 @@ const THEME = {
     tertiary: '#EC5840',
   },
   typography: {},
-  overrides: {},
+  overrides: {
+    'ui-kit.Button': (theme) => ({
+      // Fixes an issue on Android where transparency do not look good
+      // This forces all buttons to be filled with colors.secondary
+      bordered: false,
+    }),
+  },
 };
 
 const ICONS = {
