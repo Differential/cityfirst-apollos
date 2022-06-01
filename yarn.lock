@@ -50,10 +50,10 @@
     react-native-url-polyfill "^1.3.0"
     yup "^0.27.0"
 
-"@apollosproject/ui-connected@^3.7.1-canary.2":
-  version "3.7.1-canary.2"
-  resolved "https://registry.yarnpkg.com/@apollosproject/ui-connected/-/ui-connected-3.7.1-canary.2.tgz#4d6c8daa631ce1087172598bac09be962dab8bbd"
-  integrity sha512-lAMhN9lrJ8pHTiuQstKe8oMIYL0f5ZVljHAmgvdGHxd01FuF00yJYqT1UTlbRPwjlJAFheL/rx3hAQ4u9xMElg==
+"@apollosproject/ui-connected@^3.7.1-canary.3":
+  version "3.7.1-canary.3"
+  resolved "https://registry.yarnpkg.com/@apollosproject/ui-connected/-/ui-connected-3.7.1-canary.3.tgz#46715f89e9a8a218d60a24c4fe7de8c4d97b59aa"
+  integrity sha512-lOclVv/CidtL3akzfKI43ccJ1bEAFlJU81epfS7MVA6PafW9XdOvpF8/rnlDoppMIsqUuiDYhpjAU2kFr4nZkA==
   dependencies:
     "@gorhom/bottom-sheet" "3.4.1"
     "@react-navigation/bottom-tabs" "^5.11.8"
@@ -79,10 +79,10 @@
     entities "^1.1.2"
     htmlparser2 "3.9.2"
 
-"@apollosproject/ui-kit@^3.7.1-canary.2":
-  version "3.7.1-canary.2"
-  resolved "https://registry.yarnpkg.com/@apollosproject/ui-kit/-/ui-kit-3.7.1-canary.2.tgz#d5a2bc516181942420c48971ccce784cdcdb6602"
-  integrity sha512-3BTJnshw8nkQ+pzWCBkUcucwWeRAoMEe1AmwzWkyst+L91U+2Bg4mdxeoWDnHx+KBnc91qWMcWFG0lFrPG4sHA==
+"@apollosproject/ui-kit@^3.7.1-canary.3":
+  version "3.7.1-canary.3"
+  resolved "https://registry.yarnpkg.com/@apollosproject/ui-kit/-/ui-kit-3.7.1-canary.3.tgz#ab1531b7f60f718547688cd62acc9a2078aba181"
+  integrity sha512-bqFixCQ8manQYHohD2z5+zs4TMcduPD3uuk7m+RzZ25Vt4nIut0GkHur8TgJsZzhKxUOsCF9jq1nbbS89HZ0Xw==
   dependencies:
     "@expo/react-native-action-sheet" "^3.12.0"
     "@react-native-community/blur" "^3.6.0"
