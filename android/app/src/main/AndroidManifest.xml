@@ -29,6 +29,22 @@
             <action android:name="android.intent.action.MAIN" />
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
+        <intent-filter android:autoVerify="true">
+          <action android:name="android.intent.action.VIEW" />
+          <category android:name="android.intent.category.DEFAULT" />
+          <category android:name="android.intent.category.BROWSABLE" />
+          <data android:scheme="https"
+                android:host="city-first.production.apollos.app"
+                android:pathPrefix="/app-link" />
+          <data android:scheme="http" />
+        </intent-filter>
+                <intent-filter android:autoVerify="true">
+          <action android:name="android.intent.action.VIEW" />
+          <category android:name="android.intent.category.DEFAULT" />
+          <category android:name="android.intent.category.BROWSABLE" />
+          <data android:scheme="cityfirst"
+            android:host="app-link" />
+        </intent-filter>
       </activity>
 
       <meta-data android:name="com.bugsnag.android.API_KEY" android:value="5e051990717b2c2f6750e2432a63811d" />

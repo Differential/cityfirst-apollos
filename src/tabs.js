@@ -25,7 +25,7 @@ const HeaderLogo = () => {
   const deviceColorScheme = Appearance.getColorScheme();
   return (
     <Icon
-      name="brand-icon"
+      name="brand-icon-text"
       size={theme.sizing.baseUnit * 1.5}
       fill={deviceColorScheme === 'light' ? theme.colors.primary : '#ffffff'}
     />
@@ -96,9 +96,6 @@ const ExploreTab = createFeatureFeedTab({
   },
   tabName: 'Explore',
   feedName: 'READ',
-  tabProps: {
-    useTagFilter: true,
-  },
 });
 
 const WatchTab = createFeatureFeedTab({
